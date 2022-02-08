@@ -7,6 +7,7 @@ public class OfficeApp {
     public static void main(String[] args) throws FileNotFoundException {
         Property[] properties = Ofiice.makeArray();
         Arrays.sort(properties);
+        System.out.println("Mozliwe lokalizacje: ");
         System.out.println(Ofiice.toString(properties));
     }
 }
